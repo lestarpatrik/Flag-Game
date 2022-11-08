@@ -1,0 +1,38 @@
+:root {
+    --main: rgb(30, 144, 255);
+    --white: rgb(255, 255, 255);
+    --light-gray: rgb(210,210,210);
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+.main-section {
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/world-map.png") no-repeat center center;
+    background-size: cover;
+}
+
+button {
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.rounded-button {
+    width: 12rem;
+    padding: 1.2rem;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.rounded-button.gray {
+    background-color: var(--light-gray);
+}
+
+.rounded-button.blue {
+    background-color: var(--main);
+    color: white;
+}
